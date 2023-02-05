@@ -1,3 +1,11 @@
+.container{
+    background-color: aqua;
+}
+
+.container header{
+    background-color: yellow;
+}
 .row{
+
     border: 2px solid red;
 }
