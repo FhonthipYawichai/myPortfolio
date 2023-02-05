@@ -1,6 +1,8 @@
+.container-fluid{
+    text-align: center;
+}
 .row{
     border: 0.5px solid red;
-    text-align: center;
 }
 .row.header{
     background-color: #F0F0F0;
