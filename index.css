@@ -1,11 +1,7 @@
-.container{
-    background-color: aqua;
-}
-
-.container .header{
-    background-color: yellow;
-}
 .row{
-
-    border: 2px solid red;
+    border: 0.5px solid red;
+    text-align: center;
+}
+.row.header{
+    background-color: #F0F0F0;
 }
