@@ -4,4 +4,56 @@
 }
 .row.header{
     background-color: #F0F0F0;
+    height: 240px;
 }
+img.image-profile{
+    width: 200px;
+    margin-top: 50px;
+}
+.row.profile{
+    background-color: white;
+    height: 100px;
+}
+.col#pro-name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    font-size: 40px;
+    color: #FFC7C7;
+    float: right;
+    margin: 50px 0 0 0 ;
+}
+.col#pro-surname{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    font-size: 40px;
+    color: #9D9D9D;
+    float: right;
+    margin: 50px 0 0 0 ;
+}
+
+/* ---------- Mobile size ---------- */
+
+@media (max-width: 800px) {
+    .row.header{
+        background-color: #F0F0F0;
+        height: 100px;
+    }
+    img.image-profile{
+        width: 100px;
+        margin-top: 4px;
+    }
+    .row.profile{
+        background-color: white;
+        height:56px;
+    }
+    .col#pro-name {
+      flex-direction: row;
+      font-size: 20px;
+      margin: 30px 0 0 0 ;
+    }
+    .col#pro-surname {
+        flex-direction: row;
+        font-size: 20px;
+        margin: 30px 0 0 0 ;
+      }
+  }
