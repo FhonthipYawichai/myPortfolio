@@ -66,11 +66,12 @@ img.image-profile {
     width: 100px;
     height: 100px;
     border-radius: 50px;
-    background-color: #9D9D9D;
+    background-color: lightgrey;
     text-align: center;
     left: 18px;
     margin-right: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-top: 24px;
 }
 .icon-skill{
     position: absolute;
