@@ -33,6 +33,13 @@ img.image-profile{
     margin: 50px 0 0 0 ;
 }
 
+.row.paragraph{
+    height: 153px;
+}
+#paragraph-profile{
+    padding: 14px 10px;
+    font-size: 20px;
+}
 /* ---------- Mobile size ---------- */
 
 @media (max-width: 800px) {
