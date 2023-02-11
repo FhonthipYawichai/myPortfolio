@@ -1,68 +1,123 @@
-.container-fluid{
+.container-fluid {
     text-align: center;
 }
-.row{
+
+.row {
     border: 0.5px solid red;
 }
-.row.header{
+
+.row.header {
     background-color: #F0F0F0;
     height: 240px;
 }
-img.image-profile{
+
+img.image-profile {
     width: 200px;
     margin-top: 50px;
 }
-.row.profile{
+
+.row.profile {
     background-color: white;
     height: 100px;
 }
-.col#pro-name{
+
+.col#pro-name {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: 40px;
     color: #FFC7C7;
     float: right;
-    margin: 50px 0 0 0 ;
+    margin: 50px -50px 0px 0px;
 }
-.col#pro-surname{
+
+.col#pro-surname {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: 40px;
     color: #9D9D9D;
     float: right;
-    margin: 50px 0 0 0 ;
+    margin: 50px 0px 0px -50px;
 }
 
-.row.paragraph{
+.row.paragraph {
     height: 153px;
 }
-#paragraph-profile{
+
+#paragraph-profile {
     padding: 14px 10px;
     font-size: 20px;
+    font-weight: lighter;
 }
+
+#t1 {
+    font-weight: bolder;
+    font-size: 30px;
+    color: #FFC7C7;
+}
+
+#t2 {
+    font-weight: bolder;
+    font-size: 30px;
+    color: #9D9D9D;
+}
+
+.card-skills {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #9D9D9D;
+    text-align: center;
+    left: 18px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.icon-skill{
+    position: absolute;
+    width: 85px;
+    height: 80px;
+    text-align: center;
+    top: 10px;
+    left: 8px;
+}
+.skill7{
+    width: 60px;
+    height: 70px;
+    top: 14px;
+    left: 24px;
+}
+.intern-pic {
+    height: 320px;
+    border-radius: 15px;
+}
+
 /* ---------- Mobile size ---------- */
 
 @media (max-width: 800px) {
-    .row.header{
+    .row.header {
         background-color: #F0F0F0;
         height: 100px;
     }
-    img.image-profile{
+
+    img.image-profile {
         width: 100px;
         margin-top: 4px;
     }
-    .row.profile{
+
+    .row.profile {
         background-color: white;
-        height:56px;
+        height: 56px;
     }
+
     .col#pro-name {
-      flex-direction: row;
-      font-size: 20px;
-      margin: 30px 0 0 0 ;
+        flex-direction: row;
+        font-size: 20px;
+        margin: 30px 0 0 0;
     }
+
     .col#pro-surname {
         flex-direction: row;
         font-size: 20px;
-        margin: 30px 0 0 0 ;
-      }
-  }
+        margin: 30px 0 0 0;
+    }
+}
