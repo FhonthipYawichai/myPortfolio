@@ -73,7 +73,8 @@ img.image-profile {
     margin-bottom: 20px;
     margin-top: 24px;
 }
-.icon-skill{
+
+.icon-skill {
     position: absolute;
     width: 85px;
     height: 80px;
@@ -81,15 +82,44 @@ img.image-profile {
     top: 10px;
     left: 8px;
 }
-.skill7{
+
+.skill7 {
     width: 60px;
     height: 70px;
     top: 14px;
     left: 24px;
 }
+
 .intern-pic {
     height: 320px;
     border-radius: 15px;
+}
+
+#tp-1 {
+    color: #FFC7C7;
+    font-size: 50px;
+    font-weight: bolder;
+    float: right;
+    margin-bottom: 0rem;
+}
+#tp-2 {
+    color: #9D9D9D;
+    font-size: 50px;
+    font-weight: bolder;
+    float: right;
+}
+
+#btn-am{
+    padding: 0.375rem 7.85rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    float: right;
+}
+#btn-am1{
+    padding: 0.375rem 7.4rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    float: right;
 }
 
 /* ---------- Mobile size ---------- */
