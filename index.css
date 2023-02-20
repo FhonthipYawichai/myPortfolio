@@ -134,3 +134,26 @@ session-name {
     column-gap: 54px;
     padding-top: 24px;
 }
+.container.aboutme{
+    width: 1030px;
+    margin-top: 30px;
+}
+.txt{
+    font-size: 54px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: end;
+    letter-spacing:20px;
+}
+.about{
+    color: #ffc7c7;
+}
+.me{
+    color: #9d9d9d;
+}
+.btnn1{
+    padding: 22px;
+}
+.btnn{
+    width: 100%;
+}
