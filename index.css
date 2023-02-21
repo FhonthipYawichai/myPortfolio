@@ -183,10 +183,32 @@ session-name {
     width: 400px;
 }
 
-#ref-detail{
+#ref-detail {
     width: 400px;
+    font-weight: lighter;
 }
 
-.col-sm-7.ref-block{
-padding-left: 7rem;
+.col-sm-7.ref-block {
+    padding-left: 7rem;
+}
+
+footer {
+    display: grid;
+    position: relative;
+    height: 180px;
+    background-color: #f0f0f0;
+}
+
+.container.footer{
+    text-align: center;
+}
+#logo-ft{
+    margin-top: 36px;
+    width: 50px;
+    height: 50px;
+
+}
+#logo-fy{
+    width: 70px;
+    height: 70px;
 }
