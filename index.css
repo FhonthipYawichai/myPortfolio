@@ -281,4 +281,99 @@ footer {
         height: 154px;
         width: 102%;
     }
+
+
+}
+
+@media (max-width: 500px) {
+    #logo-profile {
+        position: absolute;
+        width: 150px;
+        height: 214px;
+        top: 20px;
+    }
+
+    session-name {
+        padding-top: 10px;
+    }
+
+    #name {
+        font-size: 20px;
+    }
+
+    #surename {
+        font-size: 20px;
+    }
+
+    .container.index {
+        width: auto;
+        font-size: 14px;
+    }
+
+    .container.skills {
+        width: auto;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .topic {
+        display: inline-flex;
+    }
+
+    .grid-container {
+        display: contents;
+        gap: 10px;
+        /* padding: 10px; */
+    }
+
+    .icon-skill-1 {
+        padding-top: 19px;
+        column-gap: 22px;
+    }
+
+    .container.aboutme {
+        width: auto;
+        margin-top: 30px;
+    }
+
+    .about::after {
+        content: " ME";
+        color: #9d9d9d;
+    }
+
+    .me {
+        display: none;
+    }
+
+    .txt {
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 10px;
+    }
+
+    .container.slide-ref {
+        width: auto;
+    }
+
+    #sl-01 {
+        width: 250px;
+        height: 220px;
+        padding-left: 84px;
+    }
+
+    #ref-title {
+        width: auto;
+        text-align: center;
+    }
+
+    #ref-detail {
+        width: auto;
+        font-weight: lighter;
+        text-align: center;
+    }
+
+    .col-sm-7.ref-block {
+        padding-left: unset;
+    }
+
 }
