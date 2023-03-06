@@ -219,12 +219,10 @@ footer {
 @media (max-width: 1040px) {
     body {
         max-width: unset;
-        width: 115%;
     }
 
     header {
-        max-width: unset;
-        width: 101%;
+        width: 100%;
         height: 200px;
         background-color: #f0f0f0;
     }
@@ -283,6 +281,6 @@ footer {
 
     footer {
         height: 154px;
-        width: 101%;
+        width: 100%;
     }
 }
