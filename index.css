@@ -113,13 +113,6 @@ session-name {
     left: 14px;
 }
 
-.skill7 {
-    width: 60px;
-    height: 70px;
-    top: 18px;
-    left: 26px;
-}
-
 .icon-skill-1 {
     grid-column: 1 / span 2;
     grid-row: 2;
@@ -249,12 +242,6 @@ footer {
         left: 6px;
     }
 
-    .skill7 {
-        width: 46px;
-        height: 52px;
-        top: 16px;
-        left: 20px;
-    }
 
     .grid-container {
         padding: 0px;
