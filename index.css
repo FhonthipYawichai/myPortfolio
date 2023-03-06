@@ -4,6 +4,7 @@ body {
 }
 
 header {
+    max-width: 100%;
     display: grid;
     position: relative;
     height: 240px;
@@ -199,16 +200,89 @@ footer {
     background-color: #f0f0f0;
 }
 
-.container.footer{
+.container.footer {
     text-align: center;
 }
-#logo-ft{
+
+#logo-ft {
     margin-top: 36px;
     width: 30px;
     height: 30px;
 
 }
-#logo-fy{
+
+#logo-fy {
     width: 60px;
     height: 60px;
+}
+
+@media (max-width: 1040px) {
+    body {
+        max-width: unset;
+        width: 115%;
+    }
+
+    header {
+        max-width: unset;
+        width: 101%;
+        height: 200px;
+        background-color: #f0f0f0;
+    }
+
+    session-name {
+        padding-top: 90px;
+    }
+
+    .container.index {
+        font-size: 16px;
+    }
+
+    .card-skills {
+        width: 80px;
+        height: 80px;
+    }
+
+    .icon-skill {
+        width: 68px;
+        height: 66px;
+        top: 8px;
+        left: 6px;
+    }
+
+    .skill7 {
+        width: 46px;
+        height: 52px;
+        top: 16px;
+        left: 20px;
+    }
+
+    .grid-container {
+        padding: 0px;
+    }
+
+    .icon-skill-1 {
+        column-gap: 22px;
+    }
+
+    .icon-skill-2 {
+        column-gap: 22px;
+    }
+
+    .pic {
+        width: 200px;
+    }
+
+    .txt {
+        font-size: 30px;
+        letter-spacing: 12px;
+    }
+
+    .btnn1 {
+        padding: 8px;
+    }
+
+    footer {
+        height: 154px;
+        width: 101%;
+    }
 }
