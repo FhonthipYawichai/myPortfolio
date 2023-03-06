@@ -216,6 +216,10 @@ footer {
 }
 
 @media (max-width: 1040px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     body {
         max-width: unset;
     }
@@ -286,6 +290,10 @@ footer {
 }
 
 @media (max-width: 500px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     #logo-profile {
         position: absolute;
         width: 150px;
