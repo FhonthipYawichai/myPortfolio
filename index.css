@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-color: white;
 }
 
 header {
@@ -224,7 +223,6 @@ footer {
     header {
         width: 102%;
         height: 200px;
-        background-color: #f0f0f0;
     }
 
     session-name {
