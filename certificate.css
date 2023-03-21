@@ -176,16 +176,8 @@ a:active {
         font-size: 20px;
     }
 
-
-
     .container.slide-cer {
         width: auto;
-    }
-
-    #sl-01 {
-        width: 250px;
-        height: 220px;
-        padding-left: 84px;
     }
 
     #cer-title {
@@ -202,5 +194,20 @@ a:active {
     .col-sm-7.cer-block {
         padding-left: unset;
     }
-
+    .container.certificate-slide {
+        padding-top: 3rem;
+    }
+    #sl-01 {
+        width: 340px;
+        height: 220px;
+        padding-left: unset;
+    }
+    #logo-fy {
+        width: 40px;
+        height: 40px;
+    }
+    #logo-ft{
+        width: 24px;
+        height: 24px;
+    }
 }
