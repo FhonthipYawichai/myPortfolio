@@ -210,4 +210,7 @@ a:active {
         width: 24px;
         height: 24px;
     }
+    .row.r-footer{
+        margin-top: 5rem;
+    }
 }
