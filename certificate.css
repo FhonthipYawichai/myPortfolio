@@ -45,9 +45,6 @@ session-name {
     color: #9d9d9d;
 }
 
-/* session-cer{
-    margin-top: 2rem;
-} */
 .container.certificate-slide {
     padding-top: 0.1rem;
 }
@@ -113,7 +110,7 @@ a:active {
     width: 60px;
     height: 60px;
 }
-
+/* iPad */
 @media (max-width: 1040px) {
 
     html,
@@ -134,16 +131,24 @@ a:active {
     session-name {
         padding-top: 90px;
     }
-
-
-    footer {
-        height: 154px;
-        width: 102%;
+    .container.certificate-slide {
+        padding-top: 4rem;
+    }
+    #sl-01 {
+        width: 690px;
+        height: 420px;
     }
 
+    footer {
+        height: auto;
+        width: 102%;
+    }
+    .row.r-footer{
+        margin-top: 10rem;
+    }
 
 }
-
+/* mobile */
 @media (max-width: 500px) {
 
     html,
