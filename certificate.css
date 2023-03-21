@@ -49,7 +49,7 @@ session-name {
     margin-top: 2rem;
 } */
 .container.certificate-slide {
-    padding-top: 2rem;
+    padding-top: 0.1rem;
 }
 
 .container.slide-cer {
@@ -57,8 +57,8 @@ session-name {
 }
 
 #sl-01 {
-    width: 300px;
-    height: 250px;
+    width: 740px;
+    height: 380px;
 }
 
 #cer-title {
@@ -79,10 +79,24 @@ footer {
     position: relative;
     height: 180px;
 }
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
+.row.r-footer{
+    margin-top: -48px;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
 
 .container.footer {
     text-align: center;
@@ -101,10 +115,13 @@ a:active { text-decoration: none; }
 }
 
 @media (max-width: 1040px) {
-    html, body {
+
+    html,
+    body {
         max-width: 100%;
         overflow-x: hidden;
     }
+
     body {
         max-width: unset;
     }
@@ -128,10 +145,13 @@ a:active { text-decoration: none; }
 }
 
 @media (max-width: 500px) {
-    html, body {
+
+    html,
+    body {
         max-width: 100%;
         overflow-x: hidden;
     }
+
     #logo-profile {
         position: absolute;
         width: 150px;
@@ -151,7 +171,7 @@ a:active { text-decoration: none; }
         font-size: 20px;
     }
 
-   
+
 
     .container.slide-cer {
         width: auto;
