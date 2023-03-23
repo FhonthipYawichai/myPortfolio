@@ -218,10 +218,14 @@ a:active {
     }
     .container.certificate-slide {
         padding-top: 3rem;
+        width: 300px;
+    }
+    h3{
+        width: 300px;
     }
     #sl-01 {
-        width: 340px;
-        height: 220px;
+        width: 300px;
+        height: 300px;
         padding-left: unset;
     }
     #logo-fy {
