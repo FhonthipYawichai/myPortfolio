@@ -218,13 +218,13 @@ a:active {
     }
     .container.certificate-slide {
         padding-top: 3rem;
-        width: 300px;
+        width: 360px;
     }
     h3{
-        width: 300px;
+        width: 360px;
     }
     #sl-01 {
-        width: 300px;
+        width: 360px;
         height: 300px;
         padding-left: unset;
     }
