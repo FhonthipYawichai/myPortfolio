@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    overflow-y: hidden;
+   overscroll-behavior-y: auto;
 }
 
 header {
@@ -46,24 +46,24 @@ session-name {
 }
 
 .container.certificate-slide {
-    padding-top: 0.1rem;
+    padding-top: 1rem;
 }
 
 .container.slide-cer {
-    width: 700px;
+    width: 500px;
 }
 
 #sl-01 {
-    width: 740px;
-    height: 380px;
+    width: 500px;
+    height: 500px;
 }
 
 #cer-title {
-    width: 400px;
+    width: 500px;
 }
 
 #cer-detail {
-    width: 400px;
+    width: 500px;
     font-weight: lighter;
 }
 
@@ -74,10 +74,29 @@ session-name {
 footer {
     display: grid;
     position: relative;
-    height: 180px;
+    height: 140px;
 }
 .row.r-footer{
-    margin-top: -48px;
+    margin-top: -8px;
+}
+h3{
+    text-align: center;
+    width: 500px;
+}
+#rh{
+    color: #ffc7c7;
+}
+#rb{
+    color: #9d9d9d;
+}
+#cp{
+    color: #ffc7c7;
+}
+#oa{
+    color: #9d9d9d;
+}
+#dw{
+    color: #ffc7c7;
 }
 a:link {
     text-decoration: none;
@@ -133,18 +152,22 @@ a:active {
     }
     .container.certificate-slide {
         padding-top: 4rem;
+        width: 400px;
+    }
     }
     #sl-01 {
-        width: 690px;
-        height: 420px;
+        width: 400px;
+        height: 400px;
     }
-
+    h3{
+        width: 400px;
+    }
     footer {
         height: auto;
         width: 102%;
     }
     .row.r-footer{
-        margin-top: 10rem;
+        margin-top: unset;
     }
 
 }
