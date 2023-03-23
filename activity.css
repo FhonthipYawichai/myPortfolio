@@ -1,6 +1,6 @@
 body {
     margin: 0;
-   overscroll-behavior-y: auto;
+    overscroll-behavior-y: auto;
 }
 
 header {
@@ -130,7 +130,7 @@ a:active {
     height: 60px;
 }
 /* iPad */
-@media (max-width: 1040px) {
+@media (max-width: 1000px) {
 
     html,
     body {
@@ -154,7 +154,6 @@ a:active {
         padding-top: 4rem;
         width: 400px;
     }
-    }
     #sl-01 {
         width: 400px;
         height: 400px;
@@ -167,7 +166,7 @@ a:active {
         width: 102%;
     }
     .row.r-footer{
-        margin-top: unset;
+        margin-top: 0rem;
     }
 
 }
