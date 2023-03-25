@@ -145,6 +145,23 @@ a:active {
   .container.index {
     font-size: 16px;
   }
+  .pro-img1 {
+    width: 250px;
+    height: 200px;
+  }
+  .pro-img2{
+    width: 440px;
+    height: 300px;
+  }
+  .pro-img3{
+    width: 500px;
+    height: 340px;
+  }
+  .pro-img4 {
+    width: 150px;
+    height: 300px;
+  }
+  
 
   footer {
     height: 154px;
