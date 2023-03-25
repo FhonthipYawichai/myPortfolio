@@ -53,11 +53,11 @@ session-name {
   width: 400px;
   height: 300px;
 }
-.pro-img2{
+.pro-img2 {
   width: 600px;
   height: 400px;
 }
-.pro-img3{
+.pro-img3 {
   width: 700px;
   height: 440px;
 }
@@ -79,7 +79,7 @@ session-name {
   padding-top: 40px;
 }
 #name-design {
-  color:#ffc7c7;
+  color: #ffc7c7;
   padding-top: 3rem;
   display: flex;
   justify-content: flex-end;
@@ -149,11 +149,11 @@ a:active {
     width: 250px;
     height: 200px;
   }
-  .pro-img2{
+  .pro-img2 {
     width: 440px;
     height: 300px;
   }
-  .pro-img3{
+  .pro-img3 {
     width: 500px;
     height: 340px;
   }
@@ -161,7 +161,6 @@ a:active {
     width: 150px;
     height: 300px;
   }
-  
 
   footer {
     height: 154px;
@@ -199,7 +198,43 @@ a:active {
     width: auto;
     font-size: 14px;
   }
+  .pro-img1 {
+    width: 260px;
+    height: 200px;
+  }
+  .pro-img2 {
+    width: 360px;
+    height: 242px;
+    margin-top: 1rem;
+  }
+  .pro-img3 {
+    width: 360px;
+    height: 242px;
+  }
+  .pro-img4 {
+    width: 140px;
+    height: 260px;
+    margin-top: 1rem;
+  }
 
+  #name-dev {
+    color: #9d9d9d;
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .container.project {
+    display: unset;
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+  }
+  #name-design {
+    color: #ffc7c7;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+  }
   #logo-fy {
     width: 40px;
     height: 40px;
