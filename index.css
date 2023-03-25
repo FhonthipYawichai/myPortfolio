@@ -166,10 +166,18 @@ session-name {
 .container.slide-ref {
     width: 700px;
 }
-
+.txt-ref {
+    font-size: 54px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: end;
+    letter-spacing: 20px;
+    text-align: center;
+    color:#ffc7c7;
+}
 #sl-01 {
-    width: 300px;
-    height: 250px;
+    width: 306px;
+    height: 280px;
 }
 
 #ref-title {
