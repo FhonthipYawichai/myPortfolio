@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+}
+
+header {
+  max-width: 100%;
+  display: grid;
+  position: relative;
+  height: 240px;
+  /* background-color: #f0f0f0; */
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+#logo-profile {
+  position: absolute;
+  width: 200px;
+  height: 280px;
+  top: 50px;
+}
+
+session-name {
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  grid: auto/auto auto;
+  column-gap: 0px;
+  padding-top: 50px;
+}
+
+.grid-profile {
+  display: flex;
+  text-align: center;
+}
+
+#name {
+  color: #ffc7c7;
+}
+
+#surename {
+  color: #9d9d9d;
+}
+
+.container.index {
+  width: 1030px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.pro-img1 {
+  width: 400px;
+  height: 300px;
+}
+.pro-img2{
+  width: 600px;
+  height: 400px;
+}
+.pro-img3{
+  width: 700px;
+  height: 440px;
+}
+.pro-img4 {
+  width: 240px;
+  height: 440px;
+}
+
+#name-dev {
+  color: #9d9d9d;
+  padding-top: 40px;
+}
+.container.project {
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  grid: auto/auto auto;
+  column-gap: 20px;
+  padding-top: 40px;
+}
+#name-design {
+  color:#ffc7c7;
+  padding-top: 3rem;
+  display: flex;
+  justify-content: flex-end;
+}
+footer {
+  display: grid;
+  position: relative;
+  height: 180px;
+  /* background-color: #f0f0f0; */
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.container.footer {
+  text-align: center;
+}
+
+#logo-ft {
+  margin-top: 36px;
+  width: 30px;
+  height: 30px;
+}
+
+#logo-fy {
+  width: 60px;
+  height: 60px;
+}
+
+@media (max-width: 1040px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    max-width: unset;
+  }
+
+  header {
+    width: 102%;
+    height: 200px;
+  }
+
+  session-name {
+    padding-top: 90px;
+  }
+
+  .container.index {
+    font-size: 16px;
+  }
+
+  footer {
+    height: 154px;
+    width: 102%;
+  }
+}
+
+@media (max-width: 500px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  #logo-profile {
+    position: absolute;
+    width: 150px;
+    height: 214px;
+    top: 20px;
+  }
+
+  session-name {
+    padding-top: 10px;
+  }
+
+  #name {
+    font-size: 20px;
+  }
+
+  #surename {
+    font-size: 20px;
+  }
+
+  .container.index {
+    width: auto;
+    font-size: 14px;
+  }
+
+  #logo-fy {
+    width: 40px;
+    height: 40px;
+  }
+  #logo-ft {
+    width: 24px;
+    height: 24px;
+  }
+}
