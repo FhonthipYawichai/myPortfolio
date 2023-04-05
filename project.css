@@ -248,7 +248,7 @@ a:active {
     font-size: 14px;
   }
   .pro-img1 {
-    width: 260px;
+    width: 300px;
     height: 200px;
   }
   .pro-img2 {
@@ -258,14 +258,39 @@ a:active {
   }
   .pro-img3 {
     width: 360px;
-    height: 242px;
+    height: 240px;
   }
   .pro-img4 {
     width: 140px;
     height: 260px;
     margin-top: 1rem;
   }
-
+  .pro-img5 {
+    width: 380px;
+    height: 250px;
+    margin-top: 1rem;
+  }
+  .pro-img6 {
+    width: 340px;
+    height: 250px;
+    margin-top: 1rem;
+  }
+  .pro-img7 {
+    width: 280px;
+    height: 260px;
+  }
+  .pro-img8 {
+    width: 340px;
+    height: 210px;
+  }
+  .pro-img9 {
+    width: 380px;
+    height: 200px;
+  }
+  .pro-img10 {
+    width: 180px;
+    height: 220px;
+  }
   #name-dev {
     color: #9d9d9d;
     padding-top: 20px;
