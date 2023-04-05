@@ -50,8 +50,8 @@ session-name {
   font-weight: lighter;
 }
 .pro-img1 {
-  width: 400px;
-  height: 300px;
+  width: 600px;
+  height: 400px;
 }
 .pro-img2 {
   width: 600px;
@@ -59,13 +59,36 @@ session-name {
 }
 .pro-img3 {
   width: 700px;
-  height: 440px;
+  height: 400px;
+}
+.pro-img5 {
+  width: 700px;
+  height: 400px;
 }
 .pro-img4 {
   width: 240px;
   height: 440px;
 }
-
+.pro-img6 {
+  width: 540px;
+  height: 380px;
+}
+.pro-img7 {
+  width: 440px;
+  height: 380px;
+}
+.pro-img8 {
+  width: 700px;
+  height: 380px;
+}
+.pro-img9 {
+  width: 800px;
+  height: 400px;
+}
+.pro-img10 {
+  width: 400px;
+  height: 400px;
+}
 #name-dev {
   color: #9d9d9d;
   padding-top: 40px;
@@ -155,7 +178,7 @@ a:active {
   }
   .pro-img3 {
     width: 500px;
-    height: 340px;
+    height: 300px;
   }
   .pro-img4 {
     width: 150px;
