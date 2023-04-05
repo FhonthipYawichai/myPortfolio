@@ -97,7 +97,7 @@ session-name {
   background-color: white;
   display: grid;
   justify-content: center;
-  grid: auto/auto auto;
+  grid: auto auto/auto auto;
   column-gap: 20px;
   padding-top: 40px;
 }
