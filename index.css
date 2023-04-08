@@ -1,412 +1,351 @@
-body {
-  margin: 0;
-}
 
-header {
-  max-width: 100%;
-  display: grid;
-  position: relative;
-  height: 240px;
-  /* background-color: #f0f0f0; */
-}
-
-.logo {
-  display: flex;
-  justify-content: center;
-}
-
-#logo-profile {
-  position: absolute;
-  width: 200px;
-  height: 280px;
-  top: 50px;
-}
-
-session-name {
-  background-color: white;
-  display: grid;
-  justify-content: center;
-  grid: auto/auto auto;
-  column-gap: 40px;
-  padding-top: 50px;
-}
-
-.grid-profile {
-  display: flex;
-  text-align: center;
-}
-
-#name {
-  color: #ffc7c7;
-}
-
-#surename {
-  color: #9d9d9d;
-}
-
-.container.index {
-  width: 1030px;
-  font-size: 20px;
-  font-weight: lighter;
-}
-
-.container.skills {
-  width: 1030px;
-  font-size: 20px;
-}
-
-.col.topic-skill {
-  display: flex;
-  gap: 14px;
-}
-
-.t1 {
-  color: #ffc7c7;
-}
-
-.t2 {
-  color: #9d9d9d;
-}
-
-.grid-container {
-  display: grid;
-  gap: 10px;
-  padding: 10px;
-}
-
-.grid-item {
-  text-align: center;
-}
-
-.topic {
-  display: flex;
-  gap: 16px;
-  grid-column: 1 / span 2;
-  grid-row: 1;
-}
-
-.my-pic {
-  grid-column: 3;
-  grid-row: 1 / span 3;
-}
-
-.pic {
-  width: 271px;
-  border-radius: 15px;
-}
-
-.card-skills {
-  position: relative;
-  background-color: lightgrey;
-  border-radius: 50%;
-  width: 112px;
-  height: 112px;
-}
-
-.icon-skill {
-  position: absolute;
-  width: 85px;
-  height: 80px;
-  text-align: center;
-  top: 14px;
-  left: 14px;
-}
-
-.icon-skill-1 {
-  grid-column: 1 / span 2;
-  grid-row: 2;
-  display: flex;
-  column-gap: 54px;
-}
-
-.icon-skill-2 {
-  grid-column: 1 / span 2;
-  grid-row: 3;
-  display: flex;
-  column-gap: 54px;
-  padding-top: 24px;
-}
-
-.container.aboutme {
-  width: 1030px;
-  margin-top: 30px;
-}
-
-.txt {
-  font-size: 54px;
-  font-weight: bolder;
-  font-style: italic;
-  text-align: end;
-  letter-spacing: 20px;
-}
-
-.about {
-  color: #ffc7c7;
-}
-
-.me {
-  color: #9d9d9d;
-}
-
-.btnn1 {
-  padding: 22px;
-}
-
-.btnn {
-  width: 100%;
-}
-
-.linefree {
-  border-top: #9d9d9d;
-  border-width: 0.1px;
-  border-style: solid;
-}
-
-.container.slide-ref {
-  width: 700px;
-}
-.txt-ref {
-  font-size: 48px;
-  font-weight: bolder;
-  font-style: italic;
-  text-align: end;
-  letter-spacing: 20px;
-  text-align: center;
-  color: #ffc7c7;
-}
-#sl-01 {
-  width: 306px;
-  height: 280px;
-}
-
-#ref-title {
-  width: 400px;
-}
-
-#ref-detail {
-  width: 400px;
-  font-weight: lighter;
-}
-
-.col-sm-7.ref-block {
-  padding-left: 7rem;
-}
-
-footer {
-  display: grid;
-  position: relative;
-  height: 180px;
-  /* background-color: #f0f0f0; */
-}
-
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:active {
-  text-decoration: none;
-}
-
-.container.footer {
-  text-align: center;
-}
-
-#logo-ft {
-  margin-top: 36px;
-  width: 30px;
-  height: 30px;
-}
-
-#logo-fy {
-  width: 60px;
-  height: 60px;
-}
-
-@media (max-width: 1040px) {
-  html,
-  body {
-    max-width: 100%;
-    overflow-x: hidden;
-  }
-
-  body {
-    max-width: unset;
-  }
-
-  header {
-    width: 102%;
-    height: 200px;
-  }
-
-  session-name {
-    padding-top: 90px;
-  }
-
-  .container.index {
-    font-size: 16px;
-  }
-
-  .card-skills {
-    width: 80px;
-    height: 80px;
-  }
-
-  .icon-skill {
-    width: 68px;
-    height: 66px;
-    top: 8px;
-    left: 6px;
-  }
-
-  .grid-container {
-    padding: 0px;
-  }
-
-  .icon-skill-1 {
-    column-gap: 22px;
-  }
-
-  .icon-skill-2 {
-    column-gap: 22px;
-  }
-
-  .pic {
-    width: 200px;
-  }
-
-  .txt {
-    font-size: 30px;
-    letter-spacing: 12px;
-  }
-  .txt-ref {
-    font-size: 30px;
-    letter-spacing: 12px;
-  }
-  .btnn1 {
-    padding: 8px;
-  }
-
-  footer {
-    height: 154px;
-    width: 102%;
-  }
-}
-
-@media (max-width: 500px) {
-  html,
-  body {
-    max-width: 100%;
-    overflow-x: hidden;
-  }
-
-  #logo-profile {
-    position: absolute;
-    width: 150px;
-    height: 214px;
-    top: 20px;
-  }
-
-  session-name {
-    padding-top: 10px;
-  }
-
-  #name {
-    font-size: 20px;
-  }
-
-  #surename {
-    font-size: 20px;
-  }
-
-  .container.index {
-    width: auto;
-    font-size: 14px;
-  }
 
   .container.skills {
-    width: auto;
+    width:100%;
     font-size: 20px;
+  }
+  
+  /* .col.topic-skill {
+    display: flex;
+    gap: 20px;
+  }
+    */
+  
+  .grid-container {
+    display: grid;
+    gap: 2%;
+    padding: 0;
+  }
+  
+  .grid-item {
     text-align: center;
   }
-
-  .topic {
-    display: inline-flex;
+/*     
+  .my-pic {
+    grid-column: 3;
+    grid-row: 1 / span 3;
+  } */
+  
+  .pic {
+    width: 300px;
+    border-radius: 15px;
   }
-
-  .grid-container {
-    display: contents;
-    gap: 10px;
-    /* padding: 10px; */
+  
+  .card-skills {
+    position: relative;
+    background-color: lightgrey;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
   }
-
+  
+  .icon-skill {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    top: 20px;
+    left: 20px;
+  }
+  
   .icon-skill-1 {
-    padding-top: 19px;
-    column-gap: 22px;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    display: flex;
+    column-gap: 54px;
   }
-
+  
+  .icon-skill-2 {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    display: flex;
+    column-gap: 54px;
+    padding-top: 24px;
+  }
+  
   .container.aboutme {
-    width: auto;
+    width: 1030px;
     margin-top: 30px;
   }
-
-  .about::after {
-    content: " ME";
+  
+  .txt {
+    font-size: 54px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: end;
+    letter-spacing: 20px;
+  }
+  
+  .about {
+    color: #ffc7c7;
+  }
+  
+  .me {
     color: #9d9d9d;
   }
-
-  .me {
-    display: none;
+  
+  .btnn1 {
+    padding: 22px;
   }
-
-  .txt {
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 10px;
+  
+  .btnn {
+    width: 100%;
+  }
+  
+  .linefree {
+    border-top: #9d9d9d;
+    border-width: 0.1px;
+    border-style: solid;
+  }
+  
+  .container.slide-ref {
+    width: 1000px;
   }
   .txt-ref {
-    font-size: 20px;
+    font-size: 48px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: end;
+    letter-spacing: 20px;
     text-align: center;
-    letter-spacing: 10px;
+    color: #ffc7c7;
   }
-  .container.slide-ref {
-    width: auto;
-  }
-
   #sl-01 {
-    width: 250px;
-    height: 220px;
-    padding-left: 84px;
+    margin-top: 0.5rem;
+    margin-left: 20%;
+    width: 80%;
+    height:80%;
   }
-
+  
   #ref-title {
-    width: auto;
-    text-align: center;
+    width: 400px;
   }
-
+  
   #ref-detail {
-    width: auto;
+    width: 400px;
     font-weight: lighter;
+  }
+  
+  .col-sm-7.ref-block {
+    padding-left: 7rem;
+  }
+  
+  footer {
+    display: grid;
+    position: relative;
+    height: 180px;
+    /* background-color: #f0f0f0; */
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  
+  .container.footer {
     text-align: center;
   }
-
-  .col-sm-7.ref-block {
-    padding-left: unset;
-  }
-
-  #logo-fy {
-    width: 40px;
-    height: 40px;
-  }
+  
   #logo-ft {
-    width: 24px;
-    height: 24px;
+    margin-top: 36px;
+    width: 30px;
+    height: 30px;
   }
-}
+  
+  #logo-fy {
+    width: 60px;
+    height: 60px;
+  }
+  
+  @media (max-width: 1040px) {
+    html,
+    body {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+  
+    body {
+      max-width: unset;
+    }
+  
+    header {
+      width: 102%;
+      height: 200px;
+    }
+  
+    session-name {
+      padding-top: 90px;
+    }
+  
+    .container.index {
+      font-size: 16px;
+    }
+  
+    .card-skills {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .icon-skill {
+      width: 68px;
+      height: 66px;
+      top: 8px;
+      left: 6px;
+    }
+  
+    .grid-container {
+      padding: 0px;
+    }
+  
+    .icon-skill-1 {
+      column-gap: 22px;
+    }
+  
+    .icon-skill-2 {
+      column-gap: 22px;
+    }
+  
+    .pic {
+      width: 200px;
+    }
+  
+    .txt {
+      font-size: 30px;
+      letter-spacing: 12px;
+    }
+    .txt-ref {
+      font-size: 30px;
+      letter-spacing: 12px;
+    }
+    .btnn1 {
+      padding: 8px;
+    }
+  
+    footer {
+      height: 154px;
+      width: 102%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    html,
+    body {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+  
+    #logo-profile {
+      position: absolute;
+      width: 150px;
+      height: 214px;
+      top: 20px;
+    }
+  
+    session-name {
+      padding-top: 10px;
+    }
+  
+    #name {
+      font-size: 20px;
+    }
+  
+    #surename {
+      font-size: 20px;
+    }
+  
+    .container.index {
+      width: auto;
+      font-size: 14px;
+    }
+  
+    .container.skills {
+      width: auto;
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .topic {
+      display: inline-flex;
+    }
+  
+    .grid-container {
+      display: contents;
+      gap: 10px;
+      /* padding: 10px; */
+    }
+  
+    .icon-skill-1 {
+      padding-top: 19px;
+      column-gap: 22px;
+    }
+  
+    .container.aboutme {
+      width: auto;
+      margin-top: 30px;
+    }
+  
+    .about::after {
+      content: " ME";
+      color: #9d9d9d;
+    }
+  
+    .me {
+      display: none;
+    }
+  
+    .txt {
+      font-size: 20px;
+      text-align: center;
+      letter-spacing: 10px;
+    }
+    .txt-ref {
+      font-size: 20px;
+      text-align: center;
+      letter-spacing: 10px;
+    }
+    .container.slide-ref {
+      width: auto;
+    }
+  
+    #sl-01 {
+      width: 250px;
+      height: 220px;
+      padding-left: 84px;
+    }
+  
+    #ref-title {
+      width: auto;
+      text-align: center;
+    }
+  
+    #ref-detail {
+      width: auto;
+      font-weight: lighter;
+      text-align: center;
+    }
+  
+    .col-sm-7.ref-block {
+      padding-left: unset;
+    }
+  
+    #logo-fy {
+      width: 40px;
+      height: 40px;
+    }
+    #logo-ft {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  

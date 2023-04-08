@@ -1,0 +1,35 @@
+
+
+.tp-model{
+    font-weight: 600;
+    font-size: 30px;
+    color: #ffc7c7;
+    letter-spacing: 2px;
+}
+.modal-content {
+    width: 930px;
+}
+
+.btn-dl {
+    width: 26%;
+    display: flex;
+    justify-content: center;
+    margin-left: 68%;
+    border-radius: 40px;
+    font-weight: 600;
+    background-color: #ffc7c7;
+    color: #3d535f;
+}
+    .btn-dl:hover {
+        cursor: pointer;
+        background-color:#ffc7c7;
+        font-weight: 700;
+        color: black;
+    }
+.modal-header .btn-close{
+    background-color: #ffff;
+    font-weight: 900;
+    font-weight: bolder;
+    border-radius: 50%;
+    margin-right: 15%;
+}

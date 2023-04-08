@@ -1,0 +1,98 @@
+
+
+/* iPad */
+@media (max-width: 1040px) {
+
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    body {
+        max-width: unset;
+    }
+
+    header {
+        width: 102%;
+        height: 200px;
+    }
+
+    session-name {
+        padding-top: 90px;
+    }
+    .container.certificate-slide {
+        padding-top: 3rem;
+    }
+    #sl-01 {
+        width: 690px;
+        height: 420px;
+    }
+
+}
+/* mobile */
+@media (max-width: 500px) {
+
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    #logo-profile {
+        position: absolute;
+        width: 150px;
+        height: 214px;
+        top: 20px;
+    }
+
+    session-name {
+        padding-top: 10px;
+    }
+
+    #name {
+        font-size: 20px;
+    }
+
+    #surename {
+        font-size: 20px;
+    }
+
+    .container.slide-cer {
+        width: auto;
+    }
+
+    #cer-title {
+        width: auto;
+        text-align: center;
+    }
+
+    #cer-detail {
+        width: auto;
+        font-weight: lighter;
+        text-align: center;
+    }
+
+    .col-sm-7.cer-block {
+        padding-left: unset;
+    }
+    .container.certificate-slide {
+        padding-top: 3rem;
+    }
+    #sl-01 {
+        width: 340px;
+        height: 220px;
+        padding-left: unset;
+    }
+    #logo-fy {
+        width: 40px;
+        height: 40px;
+    }
+    #logo-ft{
+        width: 24px;
+        height: 24px;
+    }
+    .row.r-footer{
+        margin-top: 2rem;
+    }
+}
