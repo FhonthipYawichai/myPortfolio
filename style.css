@@ -280,6 +280,12 @@ img #1 {
 }
 /* Mobile แนวตั้ง */
 @media screen and (max-width: 500px) {
+  .wrapper {
+    display: grid;
+  }
+  .cols {
+    width: 90%;
+  }
   .logo {
     font-size: 22px;
   }
