@@ -1,35 +1,76 @@
-
-
-.tp-model{
-    font-weight: 600;
-    font-size: 30px;
-    color: #ffc7c7;
-    letter-spacing: 2px;
+#modal-resu {
+  width: 900px;
+}
+#modal-img {
+  margin-left: -12%;
+}
+#modal-con {
+  width: 930px;
+}
+.tp-model {
+  font-weight: 600;
+  font-size: 30px;
+  color: #ffc7c7;
+  letter-spacing: 2px;
 }
 .modal-content {
-    width: 930px;
+  width: 930px;
+}
+#modal-icon {
+  width: 24%;
+  margin-top: -9px;
+  margin-left: -2%;
 }
 
 .btn-dl {
-    width: 26%;
-    display: flex;
-    justify-content: center;
-    margin-left: 68%;
-    border-radius: 40px;
-    font-weight: 600;
-    background-color: #ffc7c7;
-    color: #3d535f;
+  width: 26%;
+  display: flex;
+  justify-content: center;
+  margin-left: 68%;
+  border-radius: 40px;
+  font-weight: 600;
+  background-color: #ffc7c7;
+  color: #3d535f;
 }
-    .btn-dl:hover {
-        cursor: pointer;
-        background-color:#ffc7c7;
-        font-weight: 700;
-        color: black;
-    }
-.modal-header .btn-close{
-    background-color: #ffff;
-    font-weight: 900;
-    font-weight: bolder;
-    border-radius: 50%;
-    margin-right: 15%;
+.btn-dl:hover {
+  cursor: pointer;
+  background-color: #ffc7c7;
+  font-weight: 700;
+  color: black;
+}
+.modal-header .btn-close {
+  background-color: #ffff;
+  font-weight: 900;
+  font-weight: bolder;
+  border-radius: 50%;
+  margin-right: 15%;
+}
+
+/* iPad แนวตั้ง */
+@media screen and (max-width: 890px) {
+  #modal-img {
+    margin-left: -2%;
+  }
+  .modal-dialog {
+    width: 750px;
+    margin: 2.75rem -2%;
+  }
+  .modal-header {
+    width: 700px;
+  }
+  #modal-con {
+    width: 800px;
+  }
+  #modal-resu {
+    width: 680px;
+  }
+  #modal-icon {
+    width: 24%;
+    margin-top: -9px;
+    margin-left: -2%;
+  }
+  .btn-dl {
+    width: 26%;
+    margin-left: 52%;
+  }
 }
