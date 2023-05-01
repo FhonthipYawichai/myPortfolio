@@ -1,123 +1,174 @@
+.container-pro {
+  max-width: 900px;
+  justify-content: space-evenly;
+  display: grid;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  grid: auto auto auto/auto auto;
+  grid-gap: 5% 15%;
+  border: unset;
+}
 
-  
-  .container-pro {
-    max-width: 900px;
-    justify-content: space-evenly;
-    display: grid;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    grid: auto auto auto/auto auto;
-    grid-gap: 5% 15%;
-    border: unset;
-  }
-  
-  .card-wrapper {
-    width: 400px;
-    height: 300px;
-    position: relative;
-  }
-  /* img .card-projects{
-    width: 100%;
-  } */
-  .card .projects {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 350px;
-    height: 450px;
-    transform: translate(-50%, -50%);
-    border-radius: 16px;
-    overflow: hidden;
-    /* box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6); */
-    cursor: pointer;
-    transition: 0.5s;
-  }
-  .card .card-image {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    /* background-color: #000; */
-    transition: 0.5s;
-  }
-  .card:hover img {
-    opacity: 0.4;
-    transition: 0.5s;
-  }
-  
-  .card:hover .card-image {
-    transform: translateY(-100px);
-    transition: all 0.9s;
-  }
-  
-  /**** Social Icons *****/
-  .social-icons {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 3;
-    display: flex;
-  }
-  .social-icons li {
-    list-style: none;
-  }
-  .social-icons li a {
-    border-radius: 50%;
-    position: relative;
-    display: block;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    background:  rgb(255, 223, 255);
-    font-size: 23px;
-    /* color: gray; */
-    font-weight: bold;
-    margin: 0 6px;
-    transition: 0.4s;
-    transform: translateY(200px);
-    opacity: 0;
-  }
-  
-  .card:hover .social-icons li a {
-    transform: translateY(0px);
-    opacity: 10;
-  }
-  
-  /* .social-icons li a:hover {
+.card-wrapper {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+/* -------- img-projects ---------- */
+#pro-img1 {
+  width: 400px;
+}
+#pro-img2 {
+  width: 500px;
+}
+#pro-img3 {
+  width: 500px;
+}
+#pro-img4 {
+  width: 400px;
+}
+#pro-img5 {
+  width: 450px;
+}
+#pro-img6 {
+  width: 300px;
+}
+#pro-img7 {
+  width: 450px;
+}
+#pro-img8 {
+  width: 400px;
+}
+#pro-img9 {
+  width: 500px;
+}
+/* -------- img-projects ---------- */
+.card .projects {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 350px;
+  height: 450px;
+  transform: translate(-50%, -50%);
+  border-radius: 16px;
+  overflow: hidden;
+  /* box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6); */
+  cursor: pointer;
+  transition: 0.5s;
+}
+.card .card-image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  /* background-color: #000; */
+  transition: 0.5s;
+}
+.card:hover img {
+  opacity: 0.4;
+  transition: 0.5s;
+}
+
+.card:hover .card-image {
+  transform: translateY(-100px);
+  transition: all 0.9s;
+}
+
+/**** Social Icons *****/
+.social-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  display: flex;
+}
+.social-icons li {
+  list-style: none;
+}
+.social-icons li a {
+  border-radius: 50%;
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: rgb(255, 223, 255);
+  font-size: 23px;
+  /* color: gray; */
+  font-weight: bold;
+  margin: 0 6px;
+  transition: 0.4s;
+  transform: translateY(200px);
+  opacity: 0;
+}
+
+.card:hover .social-icons li a {
+  transform: translateY(0px);
+  opacity: 10;
+}
+
+/* .social-icons li a:hover {
     background: lightgray;
     transition: 0.2s;
   } */
-  /* .social-icons li a:hover .fab {
+/* .social-icons li a:hover .fab {
     color: #fff;
   } */
-  
-  /* .social-icons li a .fab {
+
+/* .social-icons li a .fab {
     transition: 0.8s;
   }
   .social-icons li a .fab:hover {
     transform: rotateY(360deg);
     color: #fff;
   } */
-  
-  .card:hover li:nth-child(1) a {
-    transition-delay: 0.1s;
+
+.card:hover li:nth-child(1) a {
+  transition-delay: 0.1s;
+}
+
+.card:hover li:nth-child(2) a {
+  transition-delay: 0.2s;
+}
+
+.card:hover li:nth-child(3) a {
+  transition-delay: 0.3s;
+}
+
+.card:hover li:nth-child(4) a {
+  transition-delay: 0.4s;
+}
+
+/**** Personal Details ****/
+
+/* iPad แนวตั้ง */
+@media screen and (max-width: 890px) {
+  .container-pro {
+    grid-gap: 5% 2%;
   }
-  
-  .card:hover li:nth-child(2) a {
-    transition-delay: 0.2s;
+
+  #pro-img1 {
+    width: 400px;
   }
-  
-  .card:hover li:nth-child(3) a {
-    transition-delay: 0.3s;
+  #pro-img2 {
+    width: 414px;
   }
-  
-  .card:hover li:nth-child(4) a {
-    transition-delay: 0.4s;
+  #pro-img3 {
+    width: 414px;
   }
-  
-  /**** Personal Details ****/
-  
+  #pro-img5 {
+    width: 400px;
+  }
+  #pro-img6 {
+    width: 280px;
+  }
+  #pro-img8 {
+    width: 320px;
+    margin-left: 56px;
+  }
+}

@@ -5,11 +5,7 @@
     font-size: 20px;
   }
   
-  /* .col.topic-skill {
-    display: flex;
-    gap: 20px;
-  }
-    */
+ 
   
   .grid-container {
     display: grid;
@@ -20,11 +16,7 @@
   .grid-item {
     text-align: center;
   }
-/*     
-  .my-pic {
-    grid-column: 3;
-    grid-row: 1 / span 3;
-  } */
+
   
   .pic {
     width: 300px;
@@ -244,7 +236,6 @@
       max-width: 100%;
       overflow-x: hidden;
     }
-  
     #logo-profile {
       position: absolute;
       width: 150px;
