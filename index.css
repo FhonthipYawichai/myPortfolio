@@ -350,7 +350,7 @@ a:active {
   }
 }
 /* iPad แนวตั้ง */
-@media screen and (max-width: 890px) {
+@media screen and (min-width: 890px) {
   .card-skills {
     width: 120px;
     height: 120px;
