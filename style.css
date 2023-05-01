@@ -278,18 +278,45 @@ img #1 {
     width: 300%;
   }
 }
-
-@media screen and (max-width: 767px) {
+/* Mobile แนวตั้ง */
+@media screen and (max-width: 500px) {
   .logo {
     font-size: 22px;
+  }
+  .navItems {
+    display: none;
+  }
+  #h1-tp {
+    font-size: 2.4rem;
+    font-weight: 400;
+  }
+  .multiText {
+    font-size: 2.2rem;
+  }
+  #h1-mobile {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  #cer-tp {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .btns {
+    left: 90%;
+    font-size: 2rem;
+  }
+  #btns-resume {
+    left: 0%;
+    font-size: 14px;
   }
 }
 
 /* iPad แนวตั้ง */
-@media screen and (max-width: 890px) {
+@media screen and (min-width: 1024px) {
   .logo {
     font-size: 22px;
   }
+
   .navItems li a {
     font-size: 18px;
   }

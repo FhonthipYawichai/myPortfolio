@@ -1,342 +1,362 @@
+.container.skills {
+  width: 100%;
+  font-size: 20px;
+}
 
+.grid-container {
+  display: grid;
+  gap: 2%;
+  padding: 0;
+}
 
-  .container.skills {
-    width:100%;
-    font-size: 20px;
-  }
-  
- 
-  
-  .grid-container {
-    display: grid;
-    gap: 2%;
-    padding: 0;
-  }
-  
-  .grid-item {
-    text-align: center;
+.grid-item {
+  text-align: center;
+}
+
+.pic {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.card-skills {
+  position: relative;
+  background-color: lightgrey;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.icon-skill {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  top: 20px;
+  left: 20px;
+}
+
+.icon-skill-1 {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  display: flex;
+  column-gap: 54px;
+}
+
+.icon-skill-2 {
+  grid-column: 1 / span 2;
+  grid-row: 3;
+  display: flex;
+  column-gap: 54px;
+  padding-top: 24px;
+}
+
+.container.aboutme {
+  width: 1030px;
+  margin-top: 30px;
+}
+
+.txt {
+  font-size: 54px;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: end;
+  letter-spacing: 20px;
+}
+
+.about {
+  color: #ffc7c7;
+}
+
+.me {
+  color: #9d9d9d;
+}
+
+.btnn1 {
+  padding: 22px;
+}
+
+.btnn {
+  width: 100%;
+}
+
+.linefree {
+  border-top: #9d9d9d;
+  border-width: 0.1px;
+  border-style: solid;
+}
+
+.container.slide-ref {
+  width: 1000px;
+}
+.txt-ref {
+  font-size: 48px;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: end;
+  letter-spacing: 20px;
+  text-align: center;
+  color: #ffc7c7;
+}
+#sl-01 {
+  margin-top: 0.5rem;
+  margin-left: 20%;
+  width: 80%;
+  height: 80%;
+}
+
+#ref-title {
+  width: 400px;
+}
+
+#ref-detail {
+  width: 400px;
+  font-weight: lighter;
+}
+
+.col-sm-7.ref-block {
+  padding-left: 7rem;
+}
+
+footer {
+  display: grid;
+  position: relative;
+  height: 180px;
+  /* background-color: #f0f0f0; */
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.container.footer {
+  text-align: center;
+}
+
+#logo-ft {
+  margin-top: 36px;
+  width: 30px;
+  height: 30px;
+}
+
+#logo-fy {
+  width: 60px;
+  height: 60px;
+}
+
+@media (max-width: 1040px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
   }
 
-  
-  .pic {
-    width: 300px;
-    border-radius: 15px;
+  body {
+    max-width: unset;
   }
-  
-  .card-skills {
-    position: relative;
-    background-color: lightgrey;
-    border-radius: 50%;
-    width: 200px;
+
+  header {
+    width: 102%;
     height: 200px;
   }
-  
+
+  session-name {
+    padding-top: 90px;
+  }
+
+  .container.index {
+    font-size: 16px;
+  }
+
+  .card-skills {
+    width: 80px;
+    height: 80px;
+  }
+
   .icon-skill {
-    position: absolute;
-    width: 160px;
-    height: 160px;
-    text-align: center;
-    top: 20px;
-    left: 20px;
+    width: 68px;
+    height: 66px;
+    top: 8px;
+    left: 6px;
   }
-  
+
+  .grid-container {
+    padding: 0px;
+  }
+
   .icon-skill-1 {
-    grid-column: 1 / span 2;
-    grid-row: 2;
-    display: flex;
-    column-gap: 54px;
+    column-gap: 22px;
   }
-  
+
   .icon-skill-2 {
-    grid-column: 1 / span 2;
-    grid-row: 3;
-    display: flex;
-    column-gap: 54px;
-    padding-top: 24px;
+    column-gap: 22px;
   }
-  
-  .container.aboutme {
-    width: 1030px;
-    margin-top: 30px;
+
+  .pic {
+    width: 200px;
   }
-  
+
   .txt {
-    font-size: 54px;
-    font-weight: bolder;
-    font-style: italic;
-    text-align: end;
-    letter-spacing: 20px;
-  }
-  
-  .about {
-    color: #ffc7c7;
-  }
-  
-  .me {
-    color: #9d9d9d;
-  }
-  
-  .btnn1 {
-    padding: 22px;
-  }
-  
-  .btnn {
-    width: 100%;
-  }
-  
-  .linefree {
-    border-top: #9d9d9d;
-    border-width: 0.1px;
-    border-style: solid;
-  }
-  
-  .container.slide-ref {
-    width: 1000px;
+    font-size: 30px;
+    letter-spacing: 12px;
   }
   .txt-ref {
-    font-size: 48px;
-    font-weight: bolder;
-    font-style: italic;
-    text-align: end;
-    letter-spacing: 20px;
-    text-align: center;
-    color: #ffc7c7;
+    font-size: 30px;
+    letter-spacing: 12px;
   }
-  #sl-01 {
-    margin-top: 0.5rem;
-    margin-left: 20%;
-    width: 80%;
-    height:80%;
+  .btnn1 {
+    padding: 8px;
   }
-  
-  #ref-title {
-    width: 400px;
-  }
-  
-  #ref-detail {
-    width: 400px;
-    font-weight: lighter;
-  }
-  
-  .col-sm-7.ref-block {
-    padding-left: 7rem;
-  }
-  
+
   footer {
-    display: grid;
-    position: relative;
-    height: 180px;
-    /* background-color: #f0f0f0; */
+    height: 154px;
+    width: 102%;
   }
-  
-  a:link {
-    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
   }
-  
-  a:visited {
-    text-decoration: none;
+  #logo-profile {
+    position: absolute;
+    width: 150px;
+    height: 214px;
+    top: 20px;
   }
-  
-  a:hover {
-    text-decoration: none;
+
+  session-name {
+    padding-top: 10px;
   }
-  
-  a:active {
-    text-decoration: none;
+
+  #name {
+    font-size: 20px;
   }
-  
-  .container.footer {
+
+  #surename {
+    font-size: 20px;
+  }
+
+  .container.index {
+    width: auto;
+    font-size: 14px;
+  }
+
+  .container.skills {
+    width: auto;
+    font-size: 20px;
     text-align: center;
   }
-  
-  #logo-ft {
-    margin-top: 36px;
-    width: 30px;
-    height: 30px;
+
+  .topic {
+    display: inline-flex;
   }
-  
+
+  .grid-container {
+    display: contents;
+    gap: 10px;
+    /* padding: 10px; */
+  }
+
+  .icon-skill-1 {
+    padding-top: 19px;
+    column-gap: 22px;
+  }
+
+  .container.aboutme {
+    width: auto;
+    margin-top: 30px;
+  }
+
+  .about::after {
+    content: " ME";
+    color: #9d9d9d;
+  }
+
+  .me {
+    display: none;
+  }
+
+  .txt {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 10px;
+  }
+  .txt-ref {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 10px;
+  }
+  .container.slide-ref {
+    width: auto;
+  }
+
+  #sl-01 {
+    width: 250px;
+    height: 220px;
+    padding-left: 84px;
+  }
+
+  #ref-title {
+    width: auto;
+    text-align: center;
+  }
+
+  #ref-detail {
+    width: auto;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  .col-sm-7.ref-block {
+    padding-left: unset;
+  }
+
   #logo-fy {
+    width: 40px;
+    height: 40px;
+  }
+  #logo-ft {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/* Mobile แนวตั้ง */
+@media screen and (max-width: 500px) {
+  .card-skills {
     width: 60px;
     height: 60px;
   }
-  
-  @media (max-width: 1040px) {
-    html,
-    body {
-      max-width: 100%;
-      overflow-x: hidden;
-    }
-  
-    body {
-      max-width: unset;
-    }
-  
-    header {
-      width: 102%;
-      height: 200px;
-    }
-  
-    session-name {
-      padding-top: 90px;
-    }
-  
-    .container.index {
-      font-size: 16px;
-    }
-  
-    .card-skills {
-      width: 80px;
-      height: 80px;
-    }
-  
-    .icon-skill {
-      width: 68px;
-      height: 66px;
-      top: 8px;
-      left: 6px;
-    }
-  
-    .grid-container {
-      padding: 0px;
-    }
-  
-    .icon-skill-1 {
-      column-gap: 22px;
-    }
-  
-    .icon-skill-2 {
-      column-gap: 22px;
-    }
-  
-    .pic {
-      width: 200px;
-    }
-  
-    .txt {
-      font-size: 30px;
-      letter-spacing: 12px;
-    }
-    .txt-ref {
-      font-size: 30px;
-      letter-spacing: 12px;
-    }
-    .btnn1 {
-      padding: 8px;
-    }
-  
-    footer {
-      height: 154px;
-      width: 102%;
-    }
+  .icon-skill {
+    width: 46px;
+    height: 46px;
   }
-  
-  @media (max-width: 500px) {
-    html,
-    body {
-      max-width: 100%;
-      overflow-x: hidden;
-    }
-    #logo-profile {
-      position: absolute;
-      width: 150px;
-      height: 214px;
-      top: 20px;
-    }
-  
-    session-name {
-      padding-top: 10px;
-    }
-  
-    #name {
-      font-size: 20px;
-    }
-  
-    #surename {
-      font-size: 20px;
-    }
-  
-    .container.index {
-      width: auto;
-      font-size: 14px;
-    }
-  
-    .container.skills {
-      width: auto;
-      font-size: 20px;
-      text-align: center;
-    }
-  
-    .topic {
-      display: inline-flex;
-    }
-  
-    .grid-container {
-      display: contents;
-      gap: 10px;
-      /* padding: 10px; */
-    }
-  
-    .icon-skill-1 {
-      padding-top: 19px;
-      column-gap: 22px;
-    }
-  
-    .container.aboutme {
-      width: auto;
-      margin-top: 30px;
-    }
-  
-    .about::after {
-      content: " ME";
-      color: #9d9d9d;
-    }
-  
-    .me {
-      display: none;
-    }
-  
-    .txt {
-      font-size: 20px;
-      text-align: center;
-      letter-spacing: 10px;
-    }
-    .txt-ref {
-      font-size: 20px;
-      text-align: center;
-      letter-spacing: 10px;
-    }
-    .container.slide-ref {
-      width: auto;
-    }
-  
-    #sl-01 {
-      width: 250px;
-      height: 220px;
-      padding-left: 84px;
-    }
-  
-    #ref-title {
-      width: auto;
-      text-align: center;
-    }
-  
-    #ref-detail {
-      width: auto;
-      font-weight: lighter;
-      text-align: center;
-    }
-  
-    .col-sm-7.ref-block {
-      padding-left: unset;
-    }
-  
-    #logo-fy {
-      width: 40px;
-      height: 40px;
-    }
-    #logo-ft {
-      width: 24px;
-      height: 24px;
-    }
+  #ref-mobile{
+    display: grid;
   }
-  
+}
+/* iPad แนวตั้ง */
+@media screen and (min-width: 890px) {
+  .card-skills {
+    width: 120px;
+    height: 120px;
+  }
+  .icon-skill {
+    width: 108px;
+    height: 100px;
+  }
+}

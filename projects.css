@@ -146,8 +146,43 @@
 
 /**** Personal Details ****/
 
+/* Mobile แนวตั้ง */
+@media screen and (max-width: 500px) {
+  .container-pro {
+    display: unset;
+    text-align: center;
+  }
+  #pro-img1 {
+    width: 300px;
+  }
+  #pro-img2 {
+    width: 314px;
+  }
+  #pro-img3 {
+    width: 314px;
+  }
+  #pro-img4 {
+    width: 300px;
+  }
+  #pro-img5 {
+    width: 300px;
+  }
+  #pro-img6 {
+    width: 200px;
+  }
+  #pro-img7 {
+    width: 356px;
+  }
+  #pro-img8 {
+    width: 240px;
+  }
+  #pro-img9 {
+    width: 300px;
+  }
+}
+
 /* iPad แนวตั้ง */
-@media screen and (max-width: 890px) {
+@media screen and (min-width: 890px) {
   .container-pro {
     grid-gap: 5% 2%;
   }

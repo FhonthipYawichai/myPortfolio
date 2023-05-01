@@ -45,9 +45,36 @@
   border-radius: 50%;
   margin-right: 15%;
 }
-
+/* Mobile แนวตั้ง */
+@media screen and (max-width: 500px) {
+  #modal-img {
+    margin-left: -2%;
+  }
+  .modal-dialog {
+    width: 450px;
+    margin: 2.75rem -2%;
+  }
+  .modal-header {
+    width: 400px;
+  }
+  #modal-con {
+    width: 400px;
+  }
+  #modal-resu {
+    width: 350px;
+  }
+  #modal-icon {
+    width: 24%;
+    margin-top: -9px;
+    margin-left: -2%;
+  }
+  .btn-dl {
+    width: 26%;
+    margin-left: 32%;
+  }
+}
 /* iPad แนวตั้ง */
-@media screen and (max-width: 890px) {
+@media screen and (min-width: 1024px) {
   #modal-img {
     margin-left: -2%;
   }

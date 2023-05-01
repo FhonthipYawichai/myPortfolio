@@ -155,8 +155,21 @@ img.slide-cer {
   transform: translate3d(-15%, 0, -100px);
 }
 
+/* Mobile แนวตั้ง */
+@media screen and (max-width: 500px) {
+  input[type="radio"] {
+    top: 158%;
+  }
+  input[type="radio"] {
+    margin: 0 4px 0 0;
+  }
+  img.slide-cer {
+    width: 240px;
+    height: 200px;
+  }
+}
 /* iPad แนวตั้ง */
-@media screen and (max-width: 890px) {
+@media screen and (min-width: 890px) {
   input[type="radio"] {
     top: 136%;
   }
