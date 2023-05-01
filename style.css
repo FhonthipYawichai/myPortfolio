@@ -318,7 +318,7 @@ img #1 {
 }
 
 /* iPad แนวตั้ง */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 890px) {
   .logo {
     font-size: 22px;
   }
