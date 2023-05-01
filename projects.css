@@ -182,7 +182,7 @@
 }
 
 /* iPad แนวตั้ง */
-@media screen and (min-width: 890px) {
+@media screen and (min-width: 1024px) {
   .container-pro {
     grid-gap: 5% 2%;
   }

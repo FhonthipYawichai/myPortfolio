@@ -345,12 +345,12 @@ a:active {
     width: 46px;
     height: 46px;
   }
-  #ref-mobile{
+  #ref-mobile {
     display: grid;
   }
 }
 /* iPad แนวตั้ง */
-@media screen and (min-width: 890px) {
+@media screen and (min-width: 1024px) {
   .card-skills {
     width: 120px;
     height: 120px;
