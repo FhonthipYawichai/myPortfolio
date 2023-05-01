@@ -318,7 +318,7 @@ img #1 {
 }
 
 /* iPad แนวตั้ง */
-@media screen and (min-width: 890px) {
+@media screen and (max-width: 890px) {
   .logo {
     font-size: 22px;
   }
@@ -330,7 +330,6 @@ img #1 {
     margin: 0 10px;
   }
   .wrapper {
-    display: grid;
     display: grid;
     padding: 5% 6% 0% 6%;
   }
@@ -354,7 +353,7 @@ img #1 {
   }
   .imgbox img {
     height: unset;
-    margin-left: 38%;
+    margin-left: 6%;
   }
   .btns {
     left: 112%;
