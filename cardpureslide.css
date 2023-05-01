@@ -158,7 +158,7 @@ img.slide-cer {
 /* Mobile แนวตั้ง */
 @media screen and (max-width: 500px) {
   input[type="radio"] {
-    top: 158%;
+    top: 142%;
   }
   input[type="radio"] {
     margin: 0 4px 0 0;
