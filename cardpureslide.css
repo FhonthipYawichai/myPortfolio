@@ -171,7 +171,7 @@ img.slide-cer {
 /* iPad แนวตั้ง */
 @media screen and (min-width: 890px) {
   input[type="radio"] {
-    top: 136%;
+    top: 114%;
   }
   img.slide-cer {
     width: 540px;
